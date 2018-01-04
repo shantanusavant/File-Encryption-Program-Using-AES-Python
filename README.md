@@ -1,1 +1,4 @@
 # File-Encryption-Program-Using-AES-Python
+This is a Python-based file encryption program in which I have made use of the PyCrypto python package to perform AES encryption. Advanced Encryption Standard (AES) is a symmetric cipher with a block size of 128 bits and key lengths 128, 192 and 256 bits. It is always said that for a stronger encryption all you need is a good robust encryption algorithm and larger key length. Hence, I have made use of AES in this program.
+
+In this program, I have made use of Initialization Vector (IV) for entropy and randomiztion to produce distint ciphertext. It is to avoid using same key and IV for encrypting differenr datasets as it becomes predictable and can be easily cracked if even if one gets compromised.
